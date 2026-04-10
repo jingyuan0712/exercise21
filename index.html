@@ -1,9 +1,8 @@
-# exercise21
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="utf-8">
-<title>Exercise</title>
+<title>Exercise 21</title>
 
 <style>
 body{
@@ -23,7 +22,8 @@ body{
 .highlight{
     display: inline-block;
     background-color: yellow;
-    padding: 2px 6px;
+    padding: 2px 5px;
+    border: 1px solid #999;
     font-weight: bold;
 }
 
@@ -34,8 +34,14 @@ body{
     height: 150px;
     border: 4px solid green;
     padding: 10px;
-    overflow: auto;   /* ⭐ 出現捲軸 */
+    overflow: auto;      /* ⭐ 捲軸關鍵 */
     margin-left: 20px;
+    margin-top: 10px;
+}
+
+/* 文字排版 */
+p{
+    line-height: 1.6;
 }
 </style>
 
@@ -45,13 +51,18 @@ body{
 
 <div class="container">
 
+<!-- 右邊浮動 + 捲軸 -->
 <div class="float-box">
-    A float div with overflow auto.
-    A float div with overflow auto.
-    A float div with overflow auto.
-    A float div with overflow auto.
-    A float div with overflow auto.
-    A float div with overflow auto.
+    A float div with overflow auto.<br>
+    A float div with overflow auto.<br>
+    A float div with overflow auto.<br>
+    A float div with overflow auto.<br>
+    A float div with overflow auto.<br>
+    A float div with overflow auto.<br>
+    A float div with overflow auto.<br>
+    A float div with overflow auto.<br>
+    A float div with overflow auto.<br>
+    A float div with overflow auto.<br>
 </div>
 
 <p>
